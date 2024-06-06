@@ -1,6 +1,6 @@
-# GleamDocker
+# GleamyDocker
 
-[Docker Engine API](https://docs.docker.com/engine/api/) bindings for Gleam.
+[Docker Engine API](https://docs.docker.com/engine/api/) Gleam bindings for the Erlang runtime.
 
 ## To-do List
 
