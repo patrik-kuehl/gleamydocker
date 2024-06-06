@@ -1,9 +1,9 @@
 name = "gleamydocker"
 version = "0.1.0"
-description = "Docker Engine API bindings for Gleam."
+description = "Docker Engine API Gleam bindings for the Erlang runtime."
 licences = ["MIT"]
 repository = { type = "github", user = "patrik-kuehl", repo = "gleamydocker" }
-gleam = ">= 1.1.0 and < 2.0.0"
+gleam = ">= 1.2.0 and < 2.0.0"
 
 [documentation]
 pages = [
@@ -11,11 +11,10 @@ pages = [
     { title = "LICENSE", path = "license.html", source = "LICENSE.md" },
 ]
 
-[javascript.deno]
-allow_read = true
-
 [dependencies]
 gleam_stdlib = ">= 0.37.0 and < 2.0.0"
+gleam_httpc = "~> 1.0 or ~> 2.0"
+gleam_json = "~> 1.0 or ~> 2.0"
 
 [dev-dependencies]
 startest = ">= 0.2.4 and < 2.0.0"
